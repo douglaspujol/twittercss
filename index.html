@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>FlexBox</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <header id="main-header">
+    <div class="content">
+      <nav>
+        <!--Navegação - Header - left-->
+        <ul>
+          <li><span class="material-icons size">home</span> Home</li>
+          <li><span class="material-icons size">notifications_none</span> Notifications</li>
+          <li><span class="material-icons size">mail</span> Messages</li>
+        </ul>
+      </nav>
+
+      <!--Logo Twitter-->
+      <img class="small" src="./assets/logo.svg">
+
+
+      <!--Navegação - Header - rigth-->
+      <div class=" side">
+        <input type="text" placeholder="Search on Twitter">
+        <img src="./assets/Douglas.png">
+        <button>Tweet</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="banner">
+    <strong>Twitter</strong>
+  </div>
+
+  <div class="bar">
+    <div class="content">
+      <ul>
+        <li class="active">
+          <span>Tweets</span>
+          <strong>1234</strong>
+        </li>
+        <li>
+          <span>Followings</span>
+          <strong>96</strong>
+        </li>
+        <li>
+          <span>Followers</span>
+          <strong>554</strong>
+        </li>
+      </ul>
+
+      <div>
+        <button>Follow</button>
+        <div class="dropdown-menu">
+
+          <span class="material-icons">
+            radio_button_unchecked
+          </span>
+          <span class="material-icons">
+            radio_button_unchecked
+          </span>
+          <span class="material-icons">
+            radio_button_unchecked
+          </span>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="wrapper-content content">
+    <aside class="profile">
+      <img class="avatar" src="/assets/Douglas.png" alt="">
+      <h1>Douglas Pujol</h1>
+      <span>@douglaspujol</span>
+      <p>Desenvolvedor Js. Possui experiência com React JS, ReactNative e NodeJS.</p>
+      <ul>
+        <li><span class="material-icons">
+            location_on
+          </span>Florianópolis, Brazil</li>
+        <li><span class="material-icons">
+            insert_link
+          </span>exibit.be</li>
+        <li><span class="material-icons">
+            av_timer
+          </span>Joined June 2020</li>
+        <li><span class="material-icons">
+            child_friendly
+          </span>Born the 20th of June 1978</li>
+      </ul>
+
+      <div>
+        <span class="material-icons">
+          person_pin
+        </span>
+        <p>73 followers that you know</p>
+      </div>
+
+      <div class="followers">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+
+      <div>
+        <span class="material-icons">
+          insert_photo
+        </span>
+        <p>266 Photos and videos</p>
+      </div>
+
+      <div class=" photos">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+
+
+
+    </aside>
+
+    <section class="timeline">
+      <nav>
+        <span class="select">Tweets</span>
+        <span>Tweets and reples</span>
+        <span>Medias</span>
+      </nav>
+
+      <ul>
+
+        <li>
+          <div class="feed">
+            <img src="./assets/Douglas.png" alt="">
+
+            <div class="user">
+
+              <strong>Douglas Pujol <a href="/">@seila</a></strong>
+
+              <p>Suave embalo de uma vida que volta às provas do amor. Se renova cmo linda flor que quer se regenerar. E
+                se
+                não sabe o que mais virá sabe que o tempo a protegerá - Denis Soares
+              </p>
+
+              <div class="icons-feed">
+                <ul>
+                  <li><span class="material-icons">
+                      chat_bubble_outline
+                    </span>3</li>
+                  <li><span class="material-icons">
+                      loop
+                    </span>4</li>
+                  <li><span class="material-icons">
+                      favorite
+                    </span>5</li>
+                </ul>
+              </div>
+        </li>
+        <li>
+          <div class="feed">
+            <img src="./assets/Douglas.png" alt="">
+
+            <div class="user">
+
+              <strong>Douglas Pujol <a href="/">@seila</a></strong>
+
+              <p>Suave embalo de uma vida que volta às provas do amor. Se renova cmo linda flor que quer se regenerar. E
+                se
+                não sabe o que mais virá sabe que o tempo a protegerá - Denis Soares
+              </p>
+
+              <div class="icons-feed">
+                <ul>
+                  <li><span class="material-icons">
+                      chat_bubble_outline
+                    </span>3</li>
+                  <li><span class="material-icons">
+                      loop
+                    </span>4</li>
+                  <li><span class="material-icons">
+                      favorite
+                    </span>5</li>
+                </ul>
+              </div>
+        </li>
+        <li>
+          <div class="feed">
+            <img src="./assets/Douglas.png" alt="">
+
+            <div class="user">
+
+              <strong>Douglas Pujol <a href="/">@seila</a></strong>
+
+              <p>Suave embalo de uma vida que volta às provas do amor. Se renova cmo linda flor que quer se regenerar. E
+                se
+                não sabe o que mais virá sabe que o tempo a protegerá - Denis Soares
+              </p>
+
+              <div class="icons-feed">
+                <ul>
+                  <li><span class="material-icons">
+                      chat_bubble_outline
+                    </span>3</li>
+                  <li><span class="material-icons">
+                      loop
+                    </span>4</li>
+                  <li><span class="material-icons">
+                      favorite
+                    </span>5</li>
+                </ul>
+              </div>
+        </li>
+        <li>
+          <div class="feed">
+            <img src="./assets/Douglas.png" alt="">
+
+            <div class="user">
+
+              <strong>Douglas Pujol <a href="/">@seila</a></strong>
+
+              <p>Suave embalo de uma vida que volta às provas do amor. Se renova cmo linda flor que quer se regenerar. E
+                se
+                não sabe o que mais virá sabe que o tempo a protegerá - Denis Soares
+              </p>
+
+              <div class="icons-feed">
+                <ul>
+                  <li><span class="material-icons">
+                      chat_bubble_outline
+                    </span>3</li>
+                  <li><span class="material-icons">
+                      loop
+                    </span>4</li>
+                  <li><span class="material-icons">
+                      favorite
+                    </span>5</li>
+                </ul>
+              </div>
+        </li>
+        <li>
+          <div class="feed">
+            <img src="./assets/Douglas.png" alt="">
+
+            <div class="user">
+
+              <strong>Douglas Pujol <a href="/">@seila</a></strong>
+
+              <p>Suave embalo de uma vida que volta às provas do amor. Se renova cmo linda flor que quer se regenerar. E
+                se
+                não sabe o que mais virá sabe que o tempo a protegerá - Denis Soares
+              </p>
+
+              <div class="icons-feed">
+                <ul>
+                  <li><span class="material-icons">
+                      chat_bubble_outline
+                    </span>3</li>
+                  <li><span class="material-icons">
+                      loop
+                    </span>4</li>
+                  <li><span class="material-icons">
+                      favorite
+                    </span>5</li>
+                </ul>
+              </div>
+        </li>
+        <li>
+          <div class="feed">
+            <img src="./assets/Douglas.png" alt="">
+
+            <div class="user">
+
+              <strong>Douglas Pujol <a href="/">@seila</a></strong>
+
+              <p>Suave embalo de uma vida que volta às provas do amor. Se renova cmo linda flor que quer se regenerar. E
+                se
+                não sabe o que mais virá sabe que o tempo a protegerá - Denis Soares
+              </p>
+
+              <div class="icons-feed">
+                <ul>
+                  <li><span class="material-icons">
+                      chat_bubble_outline
+                    </span>3</li>
+                  <li><span class="material-icons">
+                      loop
+                    </span>4</li>
+                  <li><span class="material-icons">
+                      favorite
+                    </span>5</li>
+                </ul>
+              </div>
+        </li>
+        <li>
+          <div class="feed">
+            <img src="./assets/Douglas.png" alt="">
+
+            <div class="user">
+
+              <strong>Douglas Pujol <a href="/">@seila</a></strong>
+
+              <p>Suave embalo de uma vida que volta às provas do amor. Se renova cmo linda flor que quer se regenerar. E
+                se
+                não sabe o que mais virá sabe que o tempo a protegerá - Denis Soares
+              </p>
+
+              <div class="icons-feed">
+                <ul>
+                  <li><span class="material-icons">
+                      chat_bubble_outline
+                    </span>3</li>
+                  <li><span class="material-icons">
+                      loop
+                    </span>4</li>
+                  <li><span class="material-icons">
+                      favorite
+                    </span>5</li>
+                </ul>
+              </div>
+        </li>
+
+
+
+      </ul>
+    </section>
+
+    <aside class="widgets">
+
+      <div class="tofollow">
+        <div class="titleFollow">
+          <strong>Who to follow</strong>
+
+          <a href="/">Refresh</a>
+          <a href="/">View all</a>
+
+        </div>
+
+        <ul>
+          <li>
+            <div class="profile">
+              <img src="./assets/Douglas.png" alt="">
+
+
+              <div class="info-avatar">
+                <strong>Spade<span>@spade</span></strong>
+                <button>Follow</button>
+              </div>
+
+            </div>
+
+
+            <a href="">x</a>
+
+
+          </li>
+          <li>
+            <div class="profile">
+              <img src="./assets/Douglas.png" alt="">
+
+
+              <div class="info-avatar">
+                <strong>Spade<span>@spade</span></strong>
+                <button>Follow</button>
+              </div>
+
+            </div>
+
+
+            <a href="">x</a>
+
+
+          </li>
+          <li>
+            <div class="profile">
+              <img src="./assets/Douglas.png" alt="">
+
+
+              <div class="info-avatar">
+                <strong>Spade<span>@spade</span></strong>
+                <button>Follow</button>
+              </div>
+
+            </div>
+
+
+            <a href="">x</a>
+
+
+          </li>
+
+        </ul>
+    </aside>
+
+  </div>
+
+</body>
+
+
+</html>
